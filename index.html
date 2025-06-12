@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>旱溪夜市</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-image: url('夜市1.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 1px 1px 3px black;
+    }
+    .intro {
+      padding: 4rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="last.html">旱溪夜市</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="last.html">首頁</a></li>
+          <li class="nav-item"><a class="nav-link" href="highlight.html">小吃清單</a></li>
+          <li class="nav-item"><a class="nav-link" href="car.html">交通資訊</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">聯絡我們</a></li>
+        </ul>
+         <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="搜尋" />
+          <button class="btn btn-outline-light">搜尋</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 主視覺區 -->
+  <section class="hero">
+    <h1 class="display-3">歡迎來到旱溪夜市</h1>
+    <p class="lead">台中最熱鬧的夜市之一，吃喝玩樂一次滿足！</p>
+    <a href="highlight.html" class="btn btn-warning btn-lg mt-3">探索夜市</a>
+  </section>
+
+  <!-- 簡介區 -->
+  <section class="intro text-center bg-light">
+    <div class="container">
+      <h2 class="mb-4">關於旱溪夜市</h2>
+      <p>旱溪夜市位於台中東區，是當地人與觀光客最愛的夜間去處。這裡聚集了超過百家攤販，美食種類繁多，從傳統小吃到創意料理應有盡有。</p>
+    </div>
+  </section>
+
+  <section class="text-center py-5 bg-light">
+  <h4 class="mb-3">看看大家怎麼說 👀</h4>
+  <a href="https://www.google.com/maps/place/旱溪夜市/" target="_blank" class="btn btn-outline-primary btn-lg">
+    查看 Google 評價
+  </a>
+  </section>
+
+  <!-- 頁尾 -->
+  <footer class="text-center py-4 bg-dark text-white">
+    <p>&copy; 2025 旱溪夜市介紹網站</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
